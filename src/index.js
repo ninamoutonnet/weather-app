@@ -25,7 +25,9 @@ function formatDate(date) {
 
   let strings = `${days[date.getDay()]}, ${
     months[date.getMonth()]
-  } ${date.getDate()}, ${date.getFullYear()}     ${date.getHours()}:${date.getMinutes()}`;
+  } ${date.getDate()}, ${date.getFullYear()}     ${date.getHours()}:${String(
+    date.getMinutes()
+  ).padStart(2, "0")}`;
   return strings;
 }
 

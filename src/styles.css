@@ -1,0 +1,93 @@
+body {
+  background-image: url("background_sky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.weather_emoji {
+  font-size: 120px;
+  margin: 50px;
+}
+
+.city_text_box {
+  font-size: 30px;
+  margin: 70px 50px 70px 50px;
+  text-align: center;
+}
+
+.city_search_tool {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+}
+
+.second_row {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(7, 65, 116, 0.7);
+  border: 10px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.second_row_temp {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(7, 65, 116, 0.7);
+  border: 10px solid transparent;
+  border-radius: 5px;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_row_temp:hover {
+  background-color: rgba(7, 65, 116, 1);
+}
+
+.second_row:hover {
+  background-color: rgba(7, 65, 116, 1);
+}
+
+.prediction {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(19, 40, 91, 0.7);
+  border: 5px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 150px;
+  height: 150px;
+}
+
+.prediction:hover {
+  background-color: rgba(19, 40, 91, 1);
+  font-size: 25px;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+  border: 5px solid transparent;
+  border-radius: 25%;
+}
+
+.credits {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
